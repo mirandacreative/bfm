@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/mc-joints"]
+	path = wp-content/themes/mc-joints
+	url = https://github.com/carlosesilva/JointsWP.git

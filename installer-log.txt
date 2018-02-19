@@ -1,0 +1,267 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.32
+* STEP-1 START @ 08:59:08
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	5.5.9-1ubuntu4.22 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.7 (Ubuntu)
+DOC ROOT:	/home/ubuntu/workspace
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://burrisfreight-msrinteractive.c9users.io/installer.php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20180219_burrisfreightmanagement_8a9f2adcb2c61dc57239180219204023_archive.zip
+SIZE:	107.8MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7256
+    [filename] => /home/ubuntu/workspace/20180219_burrisfreightmanagement_8a9f2adcb2c61dc57239180219204023_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2018-02-19 20:59:11
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.180219205911.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 08:59:11 - RUNTIME: 3.1345 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 08:59:42
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.5.57 -- Build Server: 5.6.33
+FILE SIZE:	database.sql (3.8MB) - installer-data.sql (3.8MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/home/ubuntu/workspace/installer-data.sql]
+COLLATE RESET:	On
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+**ERROR** database error write 'Unknown collation: 'utf8mb4_unicode_520_ci'' - [sql=
+CREATE TABLE `wp_defender_lockout` (
+  `id` int(11) unsigned NOT NULL AUTO...]
+**ERROR** database error write 'Unknown collation: 'utf8mb4_unicode_520_ci'' - [sql=
+CREATE TABLE `wp_defender_lockout_log` (
+  `id` int(11) unsigned NOT NULL ...]
+**ERROR** database error write 'Unknown collation: 'utf8mb4_unicode_520_ci'' - [sql=
+CREATE TABLE `wp_iwp_backup_status` (
+  `ID` int(11) NOT NULL AUTO_INCREME...]
+**ERROR** database error write 'Unknown collation: 'utf8mb4_unicode_520_ci'' - [sql=
+CREATE TABLE `wp_iwp_file_list` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+...]
+**ERROR** database error write 'Unknown collation: 'utf8mb4_unicode_520_ci'' - [sql=
+CREATE TABLE `wp_yoast_seo_links` (
+  `id` bigint(20) unsigned NOT NULL AU...]
+**ERROR** database error write 'Unknown collation: 'utf8mb4_unicode_520_ci'' - [sql=
+CREATE TABLE `wp_yoast_seo_meta` (
+  `object_id` bigint(20) unsigned NOT N...]
+**ERROR** database error write 'Table 'burris_wp.wp_iwp_backup_status' doesn't exist' - [sql=
+/* INSERT TABLE DATA: wp_iwp_backup_status */
+INSERT INTO `wp_iwp_backup_s...]
+**ERROR** database error write 'Table 'burris_wp.wp_yoast_seo_links' doesn't exist' - [sql=
+/* INSERT TABLE DATA: wp_yoast_seo_links */
+INSERT INTO `wp_yoast_seo_link...]
+**ERROR** database error write 'Table 'burris_wp.wp_yoast_seo_links' doesn't exist' - [sql=INSERT INTO `wp_yoast_seo_links` VALUES("2", "tel:407.852.7205", "15", "0",...]
+**ERROR** database error write 'Table 'burris_wp.wp_yoast_seo_links' doesn't exist' - [sql=INSERT INTO `wp_yoast_seo_links` VALUES("3", "mailto:amegale@burrislogistic...]
+**ERROR** database error write 'Table 'burris_wp.wp_yoast_seo_links' doesn't exist' - [sql=INSERT INTO `wp_yoast_seo_links` VALUES("4", "tel:407.852.7222", "15", "0",...]
+**ERROR** database error write 'Table 'burris_wp.wp_yoast_seo_meta' doesn't exist' - [sql=
+/* INSERT TABLE DATA: wp_yoast_seo_meta */
+INSERT INTO `wp_yoast_seo_meta`...]
+**ERROR** database error write 'Table 'burris_wp.wp_yoast_seo_meta' doesn't exist' - [sql=INSERT INTO `wp_yoast_seo_meta` VALUES("269", "0", "0")...]
+**ERROR** database error write 'Table 'burris_wp.wp_yoast_seo_meta' doesn't exist' - [sql=INSERT INTO `wp_yoast_seo_meta` VALUES("289", "0", "0")...]
+**ERROR** database error write 'Table 'burris_wp.wp_yoast_seo_meta' doesn't exist' - [sql=INSERT INTO `wp_yoast_seo_meta` VALUES("290", "0", "0")...]
+**ERROR** database error write 'Table 'burris_wp.wp_yoast_seo_meta' doesn't exist' - [sql=INSERT INTO `wp_yoast_seo_meta` VALUES("291", "0", "0")...]
+**ERROR** database error write 'Table 'burris_wp.wp_yoast_seo_meta' doesn't exist' - [sql=INSERT INTO `wp_yoast_seo_meta` VALUES("292", "0", "0")...]
+ERRORS FOUND:	17
+TABLES DROPPED:	0
+QUERIES RAN:	20058
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (1)
+wp_gf_addon_feed: (2)
+wp_links: (0)
+wp_lockdowns: (3)
+wp_login_fails: (74)
+wp_options: (267)
+wp_postmeta: (3185)
+wp_posts: (214)
+wp_rg_form: (5)
+wp_rg_form_meta: (5)
+wp_rg_form_view: (2501)
+wp_rg_incomplete_submissions: (0)
+wp_rg_lead: (266)
+wp_rg_lead_detail: (1692)
+wp_rg_lead_detail_long: (16)
+wp_rg_lead_meta: (88)
+wp_rg_lead_notes: (0)
+wp_term_relationships: (11)
+wp_term_taxonomy: (3)
+wp_termmeta: (0)
+wp_terms: (3)
+wp_usermeta: (80)
+wp_users: (3)
+wp_wfBadLeechers: (0)
+wp_wfBlockedCommentLog: (0)
+wp_wfBlockedIPLog: (21)
+wp_wfBlocks: (0)
+wp_wfBlocksAdv: (0)
+wp_wfConfig: (200)
+wp_wfCrawlers: (14)
+wp_wfFileMods: (4253)
+wp_wfHits: (1613)
+wp_wfHoover: (0)
+wp_wfIssues: (3)
+wp_wfKnownFileList: (4253)
+wp_wfLeechers: (183)
+wp_wfLockedOut: (0)
+wp_wfLocs: (1)
+wp_wfLogins: (63)
+wp_wfNet404s: (0)
+wp_wfNotifications: (6)
+wp_wfPendingIssues: (0)
+wp_wfReverseCache: (4)
+wp_wfSNIPCache: (0)
+wp_wfScanners: (19)
+wp_wfStatus: (953)
+wp_wfThrottleLog: (0)
+wp_wfVulnScanners: (0)
+
+Removed '49' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 1.8261 sec.
+STEP-2 COMPLETE @ 08:59:44 - RUNTIME: 1.8794 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 09:00:00
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments^ (0)
+wp_duplicator_packages^ (0)
+wp_gf_addon_feed~ (2)
+wp_links^ (0)
+wp_lockdowns~ (3)
+wp_login_fails~ (74)
+wp_options~ (216)
+wp_postmeta~ (3185)
+wp_posts~ (214)
+wp_rg_form~ (5)
+wp_rg_form_meta~ (5)
+wp_rg_form_view~ (2501)
+wp_rg_incomplete_submissions^ (0)
+wp_rg_lead~ (266)
+wp_rg_lead_detail~ (1692)
+wp_rg_lead_detail_long~ (16)
+wp_rg_lead_meta~ (88)
+wp_rg_lead_notes^ (0)
+wp_term_relationships~ (11)
+wp_term_taxonomy~ (3)
+wp_termmeta^ (0)
+wp_terms~ (3)
+wp_usermeta~ (80)
+wp_users~ (3)
+wp_wfBadLeechers^ (0)
+wp_wfBlockedCommentLog^ (0)
+wp_wfBlockedIPLog~ (21)
+wp_wfBlocks^ (0)
+wp_wfBlocksAdv^ (0)
+wp_wfConfig~ (200)
+wp_wfCrawlers~ (14)
+wp_wfFileMods~ (4253)
+wp_wfHits~ (1613)
+wp_wfHoover^ (0)
+wp_wfIssues~ (3)
+wp_wfKnownFileList~ (4253)
+wp_wfLeechers~ (183)
+wp_wfLockedOut^ (0)
+wp_wfLocs~ (1)
+wp_wfLogins~ (63)
+wp_wfNet404s^ (0)
+wp_wfNotifications~ (6)
+wp_wfPendingIssues^ (0)
+wp_wfReverseCache~ (4)
+wp_wfSNIPCache^ (0)
+wp_wfScanners~ (19)
+wp_wfStatus~ (953)
+wp_wfThrottleLog^ (0)
+wp_wfVulnScanners^ (0)
+--------------------------------------
+Search1:	'/nfs/c12/h01/mnt/212581/domains/burrisfreight.com/html' 
+Change1:	'/home/ubuntu/workspace' 
+Search2:	'\/nfs\/c12\/h01\/mnt\/212581\/domains\/burrisfreight.com\/html' 
+Change2:	'\/home\/ubuntu\/workspace' 
+Search3:	'%2Fnfs%2Fc12%2Fh01%2Fmnt%2F212581%2Fdomains%2Fburrisfreight.com%2Fhtml%2F' 
+Change3:	'%2Fhome%2Fubuntu%2Fworkspace%2F' 
+Search4:	'\nfs\c12\h01\mnt\212581\domains\burrisfreight.com\html' 
+Change4:	'/home/ubuntu/workspace' 
+Search5:	'//burrisfreight.com' 
+Change5:	'//burrisfreight-msrinteractive.c9users.io' 
+Search6:	'\/\/burrisfreight.com' 
+Change6:	'\/\/burrisfreight-msrinteractive.c9users.io' 
+Search7:	'%2F%2Fburrisfreight.com' 
+Change7:	'%2F%2Fburrisfreight-msrinteractive.c9users.io' 
+SCANNED:	Tables:50 	|	 Rows:19953 	|	 Cells:123587 
+UPDATED:	Tables:6 	|	 Rows:2105 	|	 Cells:2265 
+ERRORS:		0 
+RUNTIME:	1.050500 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 09:00:01 - RUNTIME: 1.0720 sec.
+
+

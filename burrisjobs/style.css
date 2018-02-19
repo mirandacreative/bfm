@@ -1,0 +1,274 @@
+/*font-family: 'Francois One', sans-serif; */
+body {
+    color: #444444;
+    background-color: #EEEEEE;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 80;
+    margin: 0;
+    padding: 0;
+}
+/* === Global Basic Sytles === */ 
+
+h1, h2, h3, h4, h5, h5, span .button{
+    font-family: 'Francois One', sans-serif;
+    letter-spacing: 1px;
+}
+.text{
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight:100;
+}
+
+.btn{
+    margin-top:1em;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color: #c52332;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.12);    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.12);
+}
+.btn:hover{
+    color: #292b2c;
+    background-color: #a8171c;
+    border-color: #adadad;
+}
+.btn a{
+    color:#fff;
+    text-decoration: none;
+}
+p{
+    margin-right: 8em;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #012877;
+}
+.blurb{
+    text-align: center;
+    padding: 8% 8% 10%;
+    margin: 20px 30px;
+    background-color: #ffffff;
+    background-image: url(http://burrisfreight.com/burrisjobs/img/search.png);
+    background-position: 80% 20%;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+.blurb p {
+    margin: 1em 2em;
+
+}
+
+/* === Header === */
+.header{
+    background: rgba(197,35,51,1);
+    background: -moz-linear-gradient(top, rgba(197,35,51,1) 0%, rgba(197,35,51,1) 59%, rgba(10,41,119,1) 59%, rgba(10,41,119,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(197,35,51,1)), color-stop(59%, rgba(197,35,51,1)), color-stop(59%, rgba(10,41,119,1)), color-stop(100%, rgba(10,41,119,1)));
+    background: -webkit-linear-gradient(top, rgba(197,35,51,1) 0%, rgba(197,35,51,1) 59%, rgba(10,41,119,1) 59%, rgba(10,41,119,1) 100%);
+    background: -o-linear-gradient(top, rgba(197,35,51,1) 0%, rgba(197,35,51,1) 59%, rgba(10,41,119,1) 59%, rgba(10,41,119,1) 100%);
+    background: -ms-linear-gradient(top, rgba(197,35,51,1) 0%, rgba(197,35,51,1) 59%, rgba(10,41,119,1) 59%, rgba(10,41,119,1) 100%);
+    background: linear-gradient(to bottom, rgba(197,35,51,1) 0%, rgba(197,35,51,1) 59%, rgba(10,41,119,1) 59%, rgba(10,41,119,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c52333', endColorstr='#0a2977', GradientType=0 );
+    max-height: 140px;
+}
+.logo{
+    padding:10px 100px;
+}
+/* === Hero === */
+.hero{
+    background-image: url("https://burrislogistics-pilot.csod.com/clientimg/burrislogistics/welcome/hero-bg-copy%20(1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height:550px;
+    color:#fff;
+    text-align:center;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-top:-10px;
+    padding:0;
+
+    }
+    .herocaption{
+        position: relative;
+        top: 50%;
+        display:block;
+    }
+    .hero h1{
+        font-size: 4em;
+        margin: 10px;
+        padding: 0px;
+    }
+    .hero h5{
+        font-family: Helvetica;
+        font-size: 1.7em;
+        margin: 10px;
+        padding: 0px;
+    } 
+
+/* === Content === */
+.content{
+    position: relative;
+    background-color: #e9ebf4;
+    color: #003399;
+}
+    .content.blue{
+    color: #ffffff;
+    background-color:  #012877;
+    background-image: url(http://burrisfreight.com/burrisjobs/img/snowbg.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    }
+    .widgethold {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        padding-top:30px;
+        }
+
+        .overhold{
+            width:49.5%;
+            float:left;
+        }
+
+        .icons{ 
+            width:28%;
+            float:left;
+            margin:10px;
+            padding:20px 20px;
+        }
+        .icons img{
+            max-height:80px;
+        }
+        .icons span{
+            display: block;
+            padding: 10px;
+        }
+        .icons ul{
+            text-align: left;
+            line-height: 1.6em;
+            font-family: Helvetica;
+            margin: 0;
+            padding: 0;
+            font-size:0.9em;
+        }
+
+/* === Mega Footer === */
+
+.megafooter{
+    position: relative;
+    background-color: #e9ebf4;
+    color: #003399;
+}
+    .innermega{
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px 0px;
+    }
+
+    .menus{
+        border-right: solid 1px #c52332;
+        width:58%;
+        float:left;
+        }
+    .socialmenu{
+        width:40%;
+        float:left;
+    }
+
+        .lists{
+            font-family: Helvetica;
+            font-size: 12px;
+            font-weight: bold;
+            float:left;
+            padding: 0 4em 0 0;
+        }
+            .list{
+                font-family: Helvetica;
+                font-size: 12px;
+                font-weight: 300;
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                line-height: 1.4em;
+            }
+            ul.list.location{
+                columns: 2;
+                -webkit-columns: 2;
+                -moz-columns: 2;
+                padding-right:3em;
+            }
+            .list a{
+                text-decoration: none;
+                color: #003399;
+                list-style: none;
+            }
+        .innersocial{
+            padding:0 1.7em;
+        }
+            ul.list.social{
+                margin-top:1.5em;
+                columns: 7;
+                -webkit-columns: 7;
+                -moz-columns: 7;
+            }
+
+/* === Affiliates === */
+
+.affiliates {
+    position: relative;
+    color: #ffffff;
+    background-color: #012877;
+    clear: both;
+}
+
+/* === Footer === */
+.footer {
+    color: #ffffff;
+    background-color: #c52332;
+    font-size: 0.8em;
+    text-align: center;
+    position:relative;
+    clear: both;
+}
+
+    .innerfooter{
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 20px;
+        height: 16px;
+    }
+
+        .footer a {
+            color: #ffffff;
+        }
+
+        .footer .copyright{
+            float:left;
+        }
+
+        .footer .mclink{
+            float:right;
+        }
+
+/* === Clear Fix === */
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+   padding-bottom: 60px;
+}
